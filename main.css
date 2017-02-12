@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background: #fff;
+    
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -58,3 +58,26 @@ img {
         filter: grayscale(0%);
     }
 }
+
+#button {
+    background-color: yellow;
+    color: #0e606f;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 350px;
+    text-decoration: none;
+    padding: 10px;
+    box-shadow: 
+        1px 0 0 #831127, 
+        0 1px 0 #831127, 
+        2px 1px 0 #831127, 
+        1px 2px 0 #831127, 
+        3px 2px 0 #831127, 
+        2px 3px 0 #831127, 
+        4px 3px 0 #831127, 
+        3px 4px 0 #831127, 
+        4px 4px 5px  #000;
+}
+
+
