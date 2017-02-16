@@ -34,5 +34,15 @@ $(document).ready(function(){
         })    
     });
     
-})
+    
+    $(".box").mouseenter(function(){
+        $(this).css("background-color",randomColor());
+        $(this).css("box-shadow","0 0 8px white");    
+    });
+    $(".box").mouseleave(function(){
+        $(this).css("box-shadow","none");
+    });
+});
+
+
 

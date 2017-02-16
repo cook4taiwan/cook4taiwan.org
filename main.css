@@ -283,3 +283,20 @@ img {
     clear: both;
 }
 
+
+#boxes {
+    width: 800px;
+    margin: 100px auto; 
+}
+
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float:left;
+    background-color: #dbd1d1;
+    margin: auto;
+}
+
