@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     
     <head>
         <meta charset="utf-8">
@@ -16,27 +16,22 @@
     <body>
         
         <a id="button" href="">為台灣而煮</a>
-        <h2>Cook For Taiwan 凡甘來bua寮特輯</h2>
+        <h2 id="title">Cook For Taiwan 凡甘來bua寮特輯</h2>
         
-        <!--
-            MADE WITH <3 AND JAVASCRIPT
-        -->
-        
-        <p>
-            願台灣每個孩子，不論出身，都能擁有優質的午餐品質與吃到美食的機會
-        </p>
-        
-        <!--
-            WHAT IS BRACKETS?
-        -->
-        <p>
-            為台灣而煮創辦人黃家俊表示，透過自己的美食，餵飽孩子的肚子是最基本的需求，進一步的，希望透過廚藝發掘孩子的廚藝潛能，實現每個孩子都是大廚師的願景，是為台灣而煮成立的初衷。
-        </p>
-        
-        <!--
-            GET STARTED WITH YOUR OWN FILES
-        -->
-        
+        <p>願台灣每個孩子，不論出身，都能擁有優質的午餐品質與吃到美食的機會</p>
+        <p>為台灣而煮創辦人黃家俊表示，透過自己的美食，餵飽孩子的肚子是最基本的需求，進一步的，希望透過廚藝發掘孩子的廚藝潛能，實現每個孩子都是大廚師的願景，是為台灣而煮成立的初衷。</p>
+     
+        <div id="lunch_choice">
+            <div id="lunch_workplace">
+                <h1 id="food_repeater">What do you want to eat for lunch?</h1>
+                <h1 id="advice"></h1>
+            </div>
+                <form>
+                    <input id="lunch" type=text placeholder="I want to eat ...">
+                    <input id="submit_btn" type="submit" value="Submit">
+                </form>
+            
+        </div>
             
         
         <div class="spacer_container">
@@ -135,7 +130,7 @@
         </div>
         
         <div id="roll_dice">
-            <h1>Give a roll</h1>
+            <h1 id="roll">Give a roll</h1>
             <div id="dice_container">
                 <div class="dice_face" id="dice1">
                     <div class="pip pip1" id="dice1_pip_1"></div>
