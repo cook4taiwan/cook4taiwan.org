@@ -241,6 +241,8 @@ $(document).ready(function(){
                     $("#happyBday").text("I guess you are 雪菁.");
                 } else if (bday.getMonth() + 1 == "8" &&　bday.getDate() == "3") {
                     $("#happyBday").text("You are Andy's girlfriend!");
+                } else {
+                    $("#happyBday").text("");
                 }
             }
             
