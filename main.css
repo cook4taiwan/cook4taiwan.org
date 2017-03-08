@@ -76,17 +76,48 @@ img {
         4px 4px 5px  #000;
 }
 
+#bdayParty {
+    background-color: #ffafe6;
+    font-size: 34px;
+    position: absolute;
+    width: 800px;
+    padding: 10px;
+    height: 200px;
+    color: rebeccapurple;
+    letter-spacing: 2px;
+}
+
+
+#bdayBanner {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#happyBday {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    position: absolute;
+    width: 800px;
+    top: 150px;
+}
+
+
+
+
 #lunch_choice {
     background-color: #e6d67d;
     height: 225px;
     box-shadow: 0 0 8px black;
-    margin-top: 30px;
+    margin-top: 280px;
 }
 
 #food_repeater { 
     text-align: center;
     position: absolute;
-    top: 295px;
+    top: 535px;
     width: 800px;
     font-size: 30px;
 }
@@ -94,7 +125,7 @@ img {
 #advice {
     font-size: 30px;
     position: absolute;
-    top: 350px;
+    top: 600px;
     width: 800px;
     text-align: center;
 }
@@ -103,14 +134,14 @@ img {
     font-size: 20px;
     position: absolute;
     left: 330px;
-    top: 465px
+    top: 715px
 }
 
 #submit_btn {
     font-size: 20px;
     position: absolute;
     left: 585px;
-    top: 465px;
+    top: 715px;
 }
 
 
