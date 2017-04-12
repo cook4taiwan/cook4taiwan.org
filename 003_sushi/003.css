@@ -1,0 +1,241 @@
+html {
+    background: #e6e9e9;
+
+}
+
+body {
+    
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+
+
+#home {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+#sushi_workplace {
+    background-color: white;
+    position: relative;
+    margin-top: 50px;
+}
+
+.sushi {
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+#seaweed {
+    margin-left: 70px;
+}
+
+#eel {
+    margin-left: 40px;
+}
+
+#shrimp {
+    margin-left: 60px;    
+}
+
+#sake {
+    margin-left: 60px;
+}
+
+#fancy_roll {
+    margin-left: 50px;
+    
+}
+
+#masago {
+    margin-left: 70px;
+}
+
+.shake {
+    animation: shake 1s;
+}
+@keyframes shake {
+    0%, 100% {transform: translateX(0);}
+	5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {transform: translateX(-5px);}
+	10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90% {transform: translateX(5px);}    
+}
+
+.hop {
+    animation: hop 2s;
+}
+@keyframes hop {
+    0% {transform: translateX(0);}
+	12% {transform: translateY(-100px) rotate(-20deg);}
+	25% {transform: translateX(-20px);}
+	37% {transform: translateY(-100px) rotate(20deg);}
+	50% {transform: translateX(20px);}
+	62% {transform: translateY(-100px) rotate(-20deg);}
+	75% {transform: translateX(-20px);}
+	87% {transform: translateY(-100px) rotate(20deg);}
+	100% {transform: translateX(0);}   
+}
+
+.spin {
+    animation: spin 2s;
+}
+@keyframes spin {
+    0% {transform: rotate(0deg)}
+	8% {transform: rotate(-50deg)}
+	12% {transform: rotate(-50deg) }
+	100% {transform: rotate(3600deg)}
+}
+
+.grow {
+    animation: grow 2s;
+}
+@keyframes grow {
+    0% { transform: scale(1); }
+	75% { transform: scale(2.5); }
+	90% { transform: scale(0.6); }
+	93% { transform: scale(1.4); }
+	95% { transform: scale(0.8); }
+	97% { transform: scale(1.2); }
+	100% { transform: scale(1); }
+}
+
+.hooray {
+    animation: hooray 2s;
+}
+@keyframes hooray {
+    0% {transform: translateX(0) translateY(0) scale(1, 1);}
+	10% {transform: translateX(60px) translateY(-60px) scale(1.5, 1.5);}
+	20% {transform: translateX(0) translateY(0) scale(.7, .7);}
+	30% {transform: translateX(-60px) translateY(-60px) scale(1.5, 1.5);}
+	40% {transform: translateX(0) translateY(0) scale(.7, .7);}
+	50% {transform: translateX(60px) translateY(-60px) scale(1.5, 1.5);}
+	60% {transform: translateX(0) translateY(0) scale(.7, .7);}
+	70% {transform: translateX(-60px) translateY(-60px) scale(1.5, 1.5);}	
+	80% {transform: translateX(0) translateY(0) scale(.7, .7);}
+	90% {transform: translateX(60px) translateY(-60px) scale(1.5, 1.5);}
+	100% {transform: translateX(0) translateY(0) scale(1, 1);}
+}
+
+
+
+#dice_container {
+    background-color: lightyellow;
+    width: 800px;
+    height: 450px;
+    position: absolute;
+    top: 3350px;
+    margin-bottom: 100px;
+    
+}
+
+
+
+#roll {
+    text-align: center;
+    position: absolute;
+    top: 3350px;
+    left: auto;
+    width: 800px;
+    z-index: 2;
+    font-size: 40px;
+    font-family: "Arial Black", "Arial Bold";
+}
+
+.dice_face {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: blue;
+    border-radius: 10px;
+    
+}
+
+#dice1 {
+    top: 170px;
+    left: 250px;
+}
+
+#dice2 {
+    top: 170px;
+    left: 450px;
+}
+
+.pip {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+/* pip order [1   5
+              2 4 6
+              3 5 7]*/
+ 
+.pip1 {
+    top: 6px;
+    left: 10px;
+}
+
+.pip2 {
+    top: 56px;
+    left: 10px;
+}
+
+.pip3 {
+    top: 106px;
+    left: 10px;
+}
+
+.pip4 {
+    top: 56px;
+    left: 56px;
+}
+
+.pip5 {
+    top: 6px;
+    left: 100px;
+}
+
+.pip6 {
+    top: 56px;
+    left: 100px;
+}
+
+.pip7 {
+    top: 106px;
+    left: 100px;
+}
+
+#shaker {
+    width: 200px;
+    height: 40px;
+    background-color: #6cce0d;
+    text-align: center;
+    font-size: 26px;
+    position: absolute;
+    top: 3720px;
+    left: 400px;
+    z-index: 2;
+    font-family: "Arial Black", "Arial Bold";
+    cursor: pointer;
+}
+
+.btn_up {
+    box-shadow: 2px 2px 2px darkgreen;
+}
+
+.btn_down {
+    box-shadow: -1px -1px 0px darkgreen;
+}
