@@ -50,9 +50,10 @@ img {
     max-width: 95%;
 }
 
-#p1 {
+#pages {
     width: 20%;
     height: 20%;
+    display: inline-block;
 }
 
 
