@@ -1,23 +1,6 @@
 $(document).ready(function(){
     
-    function randomColor (){
-        return "#" + Math.random().toString(16).slice(2,8);
-    };
-    
-    $("#button").click(function(){
-        $("body").css("background-color",randomColor());
-            
-    });
-    
-    
 
-    
-    function getRandomInt(max,min)  {
-        return Math.floor(Math.random() * (max - min + 1) + min);
-    }
-    
-    
-    
     
     $("form").submit(function(event){
         event.preventDefault();
@@ -87,11 +70,13 @@ $(document).ready(function(){
                     $("#happyBday").text("You are Andy's girlfriend!");
                 } else {
                     $("#happyBday").text("");
-                }:
-            }:
+                };
+            };
         };
 
     });
+    
+
 
 });
 

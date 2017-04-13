@@ -1,23 +1,5 @@
 $(document).ready(function(){
-    
-    function randomColor (){
-        return "#" + Math.random().toString(16).slice(2,8);
-    };
-    
-    $("#button").click(function(){
-        $("body").css("background-color",randomColor());
-            
-    });
-    
-    
-
-    
-    function getRandomInt(max,min)  {
-        return Math.floor(Math.random() * (max - min + 1) + min);
-    }
-    
-    
-    
+    alert("aaa");
     
     $("form").submit(function(event){
         event.preventDefault();
@@ -26,27 +8,15 @@ $(document).ready(function(){
         var months = ["Jan", "Feb", 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec' ];
         var today = new Date();
         
-        
         if(birthday == 0) {
             $("#bdayBanner").text("You were never born ... ");
-        } else {
-            
-            if(birthday.indexOf("/") >= 0 ) {
-                birthday = birthday.split("/");
-                var year  = birthday[2];
-				var month = (birthday[0])-1;
-                var day   = birthday[1];
-					
-            } else {
-				birthday = birthday.split('-');   
-                var year  = birthday[0];
-                var month = (birthday[1])-1;
-                var day   = birthday[2];		
-            };
-            
-            
-            
-            var bday = new Date(year, month, day);
+        } 
+        
+        
+        
+        
+        else {
+        
             
             if (today.getMonth() == bday.getMonth() && today.getDate() == bday.getDate()) {
                 $("#bdayBanner").text("Today's your birthday?!");
@@ -89,10 +59,15 @@ $(document).ready(function(){
                     $("#happyBday").text("");
                 }:
             }:
+            
+                
+            
+         
+            
+            
+            
+            
+            
         };
-
     });
-
 });
-
-
