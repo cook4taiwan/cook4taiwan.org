@@ -57,12 +57,16 @@ img {
     max-width: 95%;
 }
 
-#pages {
+.pages {
     width: 20%;
-    height: 20%;
-    display: inline-block;
+    float: left;
     margin-left: 30px;
 }
+
+img {
+    
+}
+
 
 
 
